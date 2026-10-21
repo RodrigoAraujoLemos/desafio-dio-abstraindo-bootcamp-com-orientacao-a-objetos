@@ -27,6 +27,6 @@ public class Curso extends  Conteudo {
 
     @Override 
     public String toString(){
-        return "Nome: "+ titulo +"\nDescrição: "+ descricao + "\nCarga Horária: "+ cargaHoraria;
+        return "{ Nome: "+ titulo +" || Descriçao: "+ descricao + " || Carga Horária: "+ cargaHoraria + " }";
     }
 }

@@ -34,16 +34,9 @@ public class Bootcamp {
     public Set<Dev> getDevsInscritos() {
         return devsInscritos;
     }
-    public void setDevsInscritos(Set<Dev> devsInscritos) {
-        this.devsInscritos = devsInscritos;
-    }
     public Set<Conteudo> getConteudos() {
         return conteudos;
     }
-    public void setConteudos(Set<Conteudo> conteudos) {
-        this.conteudos = conteudos;
-    }
-
     // Look over this again, may be wrong
     @Override
     public int hashCode() {
@@ -98,7 +91,5 @@ public class Bootcamp {
             return false;
         return true;
     }
-
-
 }
 
